@@ -1,0 +1,85 @@
+.cabecalho{
+    background-color: #FF9E9E;
+    padding: 2em;
+}
+
+.cabecalho ul{
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho a{
+    color: #d0e9e4;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+.principal,.carta{
+    padding: 1.5em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.principal h2, .carta h2{
+    color: #FF9E9E;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+
+.principal img{
+    width: 80%;
+    box-shadow: 5px 1px 20px #FF9E9E;
+}
+
+.nossas-fotos{
+    padding-top: 2em;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.nossas-fotos h2{
+    color: #FF9E9E;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+
+.nossas-fotos img{
+    width: 60%;
+    margin-bottom: 1em;
+}
+
+.rodape{
+    background-color: #FF9E9E;
+    padding: 2em;
+    text-align: center;
+}
+
+.rodape p{
+    color: #d0e9e4;
+    font-style: italic
+}
+
+@media (min-width: 840px){
+    .principal{
+        display: flex;
+        justify-content: center;
+    }
+
+    .principal h2{
+        margin: 2em 2em;
+    }
+
+    .principal img{
+        width: 30%;
+    }
+
+    .principal h2, .carta h2, .nossas-fotos h2{
+        font-size: 36px;
+    }
+
+    .carta p{
+        font-size: 20px;
+    }
+}
