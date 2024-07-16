@@ -9,4 +9,4 @@ Este é um projeto desenvolvido para presentear a minha irmã no dia do anivers�
 | :rocket: URL         | https://arthurvicttor.github.io/site-aniversario-irma/
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](./img/design-mobile.png#vitrinedev)
+![](./imagens/design-desktop.png#vitrinedev)
